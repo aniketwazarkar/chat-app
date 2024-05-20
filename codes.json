@@ -1,0 +1,11 @@
+{
+  "PasswordNotMatch": {
+    "customCode": 400,
+    "message": "Password not match",
+    "errors": [
+      {
+        "error": "Password not match"
+      }
+    ]
+  }
+}
