@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/frontend/public/vite.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("image.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+}
